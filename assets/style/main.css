@@ -1,0 +1,68 @@
+@import url(components/navbar.css);
+@import url(components/hero.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: #1B1B1D;
+    --grey-white: #f7f7f7;
+    --orange: #ea501e;
+    --white: #ffffff;
+    --primary-white: #EEEFF1;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+button {
+    font-family: Jost, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: Jost, sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+h1{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+}
+
+h2{
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}

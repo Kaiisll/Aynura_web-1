@@ -1,0 +1,70 @@
+.hero__section {
+    margin-top: 150px;
+    padding: 50px 0;
+    background-color: var(--grey-white);
+    height: 600px;
+    border-radius: 0 0 50px 50px;
+}
+
+.hero__contenier {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.hero__contenier--left {
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.hero__left--btns {
+    display: flex;
+    gap: 30px;
+}
+
+.left__btns--download > button {
+    border-radius: 50px;
+    padding: 10px 40px;
+    color: var(--white);
+    background: var(--black);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    text-transform: uppercase;
+}
+.left__btns--shop > button {
+    border-radius: 50px;
+    padding: 10px 40px;
+    color: var(--black);
+    background: var(--white);
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    text-transform: uppercase;
+}
+
+.hero__contenier--right {
+    position: relative;
+}
+
+.hero__right--image > img{
+    max-width: 550px;
+    border-radius: 25px;
+}
+
+.hero__right--card {
+    bottom: -50px;
+    left: -100px;
+    position: absolute;
+    background: var(--white);
+    padding: 25px;
+    border-radius: 25px;
+}
+

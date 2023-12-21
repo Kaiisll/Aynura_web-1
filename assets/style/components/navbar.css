@@ -1,0 +1,80 @@
+.navbar__section {
+    background-color: var(--grey-white);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 150px;
+}
+
+.navbar {
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar > button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar__logo > img {
+    max-width: 126px;
+}
+.navbar__catalog {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu__item > a {
+    color: var(--black);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    transition: all 0.2s ease-in-out;
+}
+
+.menu__item > a:hover {
+    color: var(--orange);
+}
+
+.navbar__signin {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.signin__cart > button {
+    padding: 15px 17px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--white);
+    filter: drop-shadow(0px 30px 60px rgba(163, 168, 178, 0.15));
+}
+
+.signin__buy > button {
+    color: var(--white);
+    padding: 15px 30px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--black);
+    filter: drop-shadow(0px 30px 60px rgba(163, 168, 178, 0.15));
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+    text-transform: uppercase;
+}
